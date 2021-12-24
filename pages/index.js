@@ -6,7 +6,6 @@ import {
   useColorModeValue,
   Link,
   Button,
-  SimpleGrid,
   ListItem,
   List,
   Icon
