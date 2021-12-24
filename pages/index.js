@@ -21,7 +21,7 @@ import {
   IoLogoInstagram,
   IoLogoGithub,
   IoLogoFacebook,
-  IoLogoDiscord
+  IoLogoChrome
 } from 'react-icons/io5'
 const Page = () => {
   return (
@@ -141,6 +141,15 @@ const Page = () => {
             Social links:
           </Heading>
           <List>
+            <ListItem>
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoChrome} />}
+              >
+                abdelrahman.abdelhakim@outlook.com
+              </Button>
+            </ListItem>
             <ListItem>
               <Link href="https://github.com/AbdelrahmanHakim" target="_blank">
                 <Button
