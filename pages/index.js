@@ -60,7 +60,7 @@ const Page = () => {
             boxSize="150px"
             objectFit="cover"
             alt="profile image"
-            src="https://www.linkpicture.com/q/profile_2.jpeg"
+            src="https://media-exp1.licdn.com/dms/image/C5603AQFu2uFcmrFhUQ/profile-displayphoto-shrink_800_800/0/1648763115187?e=1655942400&v=beta&t=foQmJxK-D9haDLqXYpqheqjuj9gsl-w2U1Ch5UoEDhQ"
           />
         </Box>
         <Section delay={0.1}>
