@@ -19,8 +19,8 @@ import Layout from '../components/layouts/article'
 import {
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoFacebook,
-  IoLogoChrome
+  IoLogoChrome,
+  IoLogoLinkedin
 } from 'react-icons/io5'
 const Page = () => {
   return (
@@ -34,14 +34,14 @@ const Page = () => {
           mt={12}
           align="center"
         >
-          Hello, I am a full-stack developer based in Egypt!
+          Hello, I am a Software Engineer based in Tallinn, Estonia!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Abdelrahman Abdelhakim
             </Heading>
-            <p>Innovative Engineer (Developer / Athlete)</p>
+            <p>Innovative Engineer</p>
           </Box>
         </Box>
         <Box
@@ -58,9 +58,10 @@ const Page = () => {
             display="inline-block"
             borderRadius="full"
             boxSize="150px"
+            paddingBottom="2px"
             objectFit="cover"
             alt="profile image"
-            src="https://media-exp1.licdn.com/dms/image/C5603AQFu2uFcmrFhUQ/profile-displayphoto-shrink_800_800/0/1648763115187?e=1655942400&v=beta&t=foQmJxK-D9haDLqXYpqheqjuj9gsl-w2U1Ch5UoEDhQ"
+            src="https://i.imgur.com/7ohLTuc.jpg"
           />
         </Box>
         <Section delay={0.1}>
@@ -68,10 +69,23 @@ const Page = () => {
             About Me
           </Heading>
           <Paragraph>
-            I am a software engineer, and started coding at university in 2014
-            by writing the famous Hello World in C++. I am eager to always learn
-            new things in tech, and increase my problem solving skills. I also
-            happen to be a pro-athlete, and an Olympian in badminton. I love
+            As a software engineer at Microsoft, I work with cutting-edge
+            technologies and collaborate with talented teams to create
+            innovative solutions for various domains. I joined Microsoft in
+            August 2023, after working as a software engineer at Entirebody and
+            qpix, where I developed and deployed web applications using Node.js,
+            MongoDB, and Git. I have a passion for learning new things in tech
+            and improving my problem-solving skills, which I cultivated during
+            my academic journey. I completed two bachelor degrees in computer
+            science and software engineering from London South Bank University
+            and The British University in Egypt, respectively, in 2018. I also
+            obtained multiple certifications in JavaScript, web development, and
+            the MERN stack from online platforms such as SoloLearn and Udemy. In
+            addition to my technical skills, I have a strong work ethic, a
+            positive attitude, and a pro-athlete mindset. I always strive to
+            deliver high-quality results, challenge myself, and grow as a
+            professional. I am eager to contribute to Microsoft vision and
+            mission, and to make an impact in the tech industry. I love
             programming, videography, photography and badminton. <br />
           </Paragraph>
           <Box align="center" my={4}>
@@ -87,9 +101,9 @@ const Page = () => {
             Skills{' '}
           </Heading>
           <Paragraph>
-            JavaScript - TypeScript - NodeJs - ReactJS (NextJs) - VueJS (NuxtJs)
-            - PHP (Laravel) - JQuery - Unit testing (Mocha - Jest) - Github -
-            GitLab - Jira - Clickup
+            C# - .net - JavaScript - TypeScript - NodeJs - ReactJS - React
+            Native - PHP (Laravel) - JQuery - Unit testing - Functional Testing
+            - Github - GitLab - Jira
           </Paragraph>
         </Section>
         <Section delay={0.3}>
@@ -122,18 +136,14 @@ const Page = () => {
             <BioYear>2021</BioYear>
             Started working for QPIX.
           </BioSection>
-        </Section>
-        <Section delay={0.4}>
-          <Heading as="h3" variant="section-title">
-            I ❤
-          </Heading>
-          <Paragraph>
-            <Link href="https://github.com/AbdelrahmanHakim">Programming</Link>,
-            Photography, Videography,{' '}
-            <Link href="https://en.wikipedia.org/wiki/Abdelrahman_Abdelhakim">
-              Badminton
-            </Link>
-          </Paragraph>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Started working for Entirebody.
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Started working for Microsoft.
+          </BioSection>
         </Section>
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
@@ -162,6 +172,20 @@ const Page = () => {
             </ListItem>
             <ListItem>
               <Link
+                href="https://www.linkedin.com/in/abdelrahman-abdelhakim-961402163/"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  Abdelrahman Abdelhakim
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
                 href="https://www.instagram.com/abdelrahman_hakim/"
                 target="_blank"
               >
@@ -171,20 +195,6 @@ const Page = () => {
                   leftIcon={<Icon as={IoLogoInstagram} />}
                 >
                   @abdelrahman_hakim
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link
-                href="https://www.facebook.com/abdelrhman.hakim.96/"
-                target="_blank"
-              >
-                <Button
-                  variant="ghost"
-                  colorScheme="teal"
-                  leftIcon={<Icon as={IoLogoFacebook} />}
-                >
-                  @Abdelrahman Abdelhakim
                 </Button>
               </Link>
             </ListItem>

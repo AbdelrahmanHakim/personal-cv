@@ -15,7 +15,34 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Qpix (November 2021 - Present)
+            Microsoft (August 2023 - Current)
+          </Heading>
+          <Paragraph>
+            Part of M365 core, Working on MSTeams and Skype Having on call
+            duties to triage and fix any problem customers face. Working in a
+            fast-paced environment, and learning new things everyday.
+            <br /> Skills used on a daily basis: <br />
+            C#, .net, TypeScript, Azure
+          </Paragraph>
+        </Section>
+        <Section delay={0.1}>
+          <Heading as="h3" variant="section-title">
+            Entirebody (June 2022 - July 2023)
+          </Heading>
+          <Paragraph>
+            Working on mobile app and web app and integrate new features daily
+            Working in a fast-paced environment, and learning new things
+            everyday. Implement dashboards and web apps using Reactjs. Implement
+            Mobile apps using react native and typescript. Contribute in unit
+            testing using Jest.
+            <br /> Skills used on a daily basis: <br />
+            TypeScript, JavaScript, ReactJs (NextJs), React Native, GraphQL,
+            Jest.
+          </Paragraph>
+        </Section>
+        <Section delay={0.1}>
+          <Heading as="h3" variant="section-title">
+            Qpix (November 2021 - June 2022)
           </Heading>
           <Paragraph>
             Working on multiple projects that could be anything from e-commerce
